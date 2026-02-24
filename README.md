@@ -1,5 +1,10 @@
 # goqueue
 
+
+[![test](https://github.com/michaelginalick/go-queue/actions/workflows/test.yml/badge.svg)](https://github.com/michaelginalick/go-queue/actions/workflows/test.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/michaelginalick/go-queue)](https://goreportcard.com/report/github.com/michaelginalick/go-queue)
+[![GoDoc](https://godoc.org/github.com/michaelginalick/go-queue?status.svg)](https://godoc.org/github.com/michaelginalick/go-queue)
+
 `goqueue` provides a small concurrency-limited FIFO work queue for Go.
 
 This implementation is derived from the `par` package in the Go standard library (see `cmd/go/internal/par`). The design is adapted into a reusable package.
